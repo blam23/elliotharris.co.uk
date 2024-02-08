@@ -1,4 +1,35 @@
-baseURL = 'https://elliotharris.co.uk/'
-languageCode = 'en-gb'
-title = 'Elliot Harris'
-theme = 'ananke'
+baseURL = "https://elliotharris.co.uk/"
+languageCode = "en-gb"
+title = "Elliot Harris"
+theme = "m10c"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
+
+[params]
+    author = "Elliot Harris"
+    description = "Desktop, web, and game development."
+    avatar = "avatar.jpg"
+    favicon = "avatar.jpg"
+    menu_item_separator = " // "
+
+    [[params.social]]
+        icon = "github"
+        name = "See me on GitHub"
+        url = "https://github.com/blam23"
+
+    [params.style]
+        darkestColor = "#242930"
+        darkColor = "#353b43"
+        lightColor = "#afbac4"
+        lightestColor = "#ffffff"
+        primaryColor = "#cc6e57"
