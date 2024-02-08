@@ -1,0 +1,4 @@
+baseURL = 'https://elliotharris.co.uk/'
+languageCode = 'en-gb'
+title = 'Elliot Harris'
+theme = 'ananke'
