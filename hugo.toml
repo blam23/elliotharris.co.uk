@@ -27,6 +27,12 @@ theme = "m10c"
         name = "See me on GitHub"
         url = "https://github.com/blam23"
 
+
+    [[params.social]]
+        icon = "monitor"
+        name = "Check my itch.io"
+        url = "https://blambear.itch.io/"
+
     [params.style]
         darkestColor = "#242930"
         darkColor = "#353b43"
